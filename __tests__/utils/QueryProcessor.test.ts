@@ -16,7 +16,8 @@ describe("QueryProcessor", () => {
             "English poet, playwright, and actor, widely regarded as the greatest " +
             "writer in the English language and the world's pre-eminent dramatist."
           ));
-    });
+    });	git config --global user.name "tanoctavius"
+	git config --global user.email "your-email@example.com"
 
     test('should return Andrew ID response', () => {
         const query = "What is your Andrew ID?";
